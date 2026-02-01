@@ -1,8 +1,7 @@
 import sqlite3
 from flask import Flask, render_template, jsonify, request
-import os
 
-os.system('cls')
+
 CLEAR_PASSWORD = '__clear'#'$(clearDatabasePass:_2012)$'
 app = Flask(__name__)
 
